@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy Softwares</title>
+    <link rel="icon" href="/htmlmain/icons8-business-16.png">
+    <style>
+        body{ margin:0; padding:0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:#3eb9b6;
+        }
+        header{
+            background-color: #ff0389;
+            color:antiquewhite;text-align:center;
+            padding:2px;
+        }
+        footer{ background-color: #ff0389;
+            color:antiquewhite;text-align:center;
+            padding:2px;}
+            .navitem {
+                display:inline;
+                padding:11px;}
+                .navitem a {text-decoration: none
+
+;
+color:rgb(161, 250, 59)}
+.registerform{
+    width:max-content;
+    margin-left: auto;
+    margin-right:auto;
+
+}
+.diremp,.contact{
+    text-align:center
+
+}
+table{
+    width:100%;
+    }
+ </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Easy Software's HR portal</h1>
+        <nav>
+        <ul>
+            <li class="navitem"><a href="#Employee Registration"><b>Interview Registration</b></a></li>
+            <li class="navitem"><a href="#Employee Directory"><b>Registered Candidate Directory</b></a></li>
+            <li class="navitem"><a href="#Contact us"><b>Contact us</b></a></li>
+        </ul>
+    </nav>
+    </header>
+    <image src="/htmlmain/imageback.png" style="width: 100%; height: 320px;"></image>
+
+    <section id="Employee Registration"class="registerform">
+        <h2>Candidate Registration</h2>
+        <p>Fill the below form to register as <em>registered candidate</em></p>
+        <form>
+            <label for="name">First Name:</label>
+                <input type="text" id="name" placeholder="Enter Your First Name"required><br><br>
+                <label for="last name"> Last Name:</label>
+                <input type="text" id="last name" placeholder="Enter Your Last Name"required><br><br>
+                <label for="email id"> Main E-mail id:</label>
+                <input type="email" id="email id" placeholder="Enter Your E-mail id" required><br><br>
+                <label for="register"> Registration id:</label>
+                <input type="text" id="register" placeholder="Enter Your Registration id" required><br><br>
+                <label for="dob"> Date of Birth:</label>
+                <input type="date" id="dob" placeholder="Enter Your date of Birth"><br><br>
+                <label for="gender">Sex:</label>
+                <input type="radio" id="male"name="gender">
+                <label for="male">Male</label>
+                <input type="radio" id="Female"name="gender">
+                <label for="Female">Female</label>
+                <input type="radio" id="other"name="gender">
+                <label for="other">Other<label><br><br>
+                    <label>Please upload your CV(.pdf format only):</label>
+                    <input type="file" value="file"required accept=".pdf"><br><br>
+                    <label>Phone Number (10 digits only)</label>
+                    <input type="number" value="pn" required><BR><BR>
+                    <label for="role">Choose Your role for the Company</label>
+            <select id="role">
+                <option>Software Developer</option>
+                <option>Hardware Expert</option>
+                <option>Manager</option>
+                <option>CA</option>
+                </select><br><br>
+
+                <label for="locate">Please select your preferred location</label>
+                <select id="locate">
+                    <option>Noida Office</option>
+                    <option>Mumbai</option>
+                    <option>Chennai</option>
+                    <option>Kolkata</option>
+                    <option>Gandhinagar</option>
+                    <option>Jaipur</option>
+
+                </select><br><br>
+                <textarea placeholder="Questions/Anything you want to tell"rows="10"cols="40"></textarea><br>
+                <input type="submit">
+                <input type="reset">
+
+
+
+
+
+        </form>
+
+
+    </section>
+
+    <section id="Employee Directory" class="diremp">
+    <h2>Registered candidate Directory</h2>
+    <table border="">
+        <tr>
+            <th>Employee ID</th>
+            <th>Employee Name</th>
+            <th>Employee Role</th>
+        </tr>
+        <tr>
+            <td>4555</td>
+            <td>Raman Singh</td>
+            <td>Software Developer</td>
+        </tr>
+        <tr>
+            <td>4556</td>
+            <td>Eklavya Thakur</td>
+            <td>CA</td>
+            <tr>
+                <td>7769</td>
+                <td>Preeti Chauhan</td>
+                <td>Hardware Expert</td>
+                <tr>
+                    <td>5568</td>
+                    <td>kareena Verma</td>
+                    <td>Software Developer</td>
+                    <tr>
+                        <td>5678</td>
+                        <td>Rajkumar N.S</td>
+                        <td>Hardware Expert</td>
+                        <tr>
+                            <td>5618</td>
+                            <td>Jasmeet Singh</td>
+                            <td>Hardware Expert</td>
+                            </tr>
+                    </tr>
+                </tr>
+            </tr>
+        </tr>
+    </table>
+</section>
+<section id="Contact us" class="contact">
+    <h2>Contact us</h2>
+    <p>You can contact us at : easysoftware@fakewebsite.com or +91 806534XXXX</p>
+    <P>Office Timings : 8:00am to 12:00am (You can also visit the office considering the time given)</P>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.783415680733!2d77.66600310821539!3d12.921637387336531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1376eba4818f%3A0xbb1c9d2e87e3d14e!2sMicrosoft%20Corporation%20(India)%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1706529070959!5m2!1sen!2sin" width="250" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+<footer>
+    <p>&copy 2024 Easy Softwares </p>
+</footer>
+
+</body>
+</html>
