@@ -1,2 +1,2 @@
 # html
-Just a small html work.
+Just some html work.
